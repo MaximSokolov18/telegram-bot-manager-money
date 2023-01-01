@@ -1,0 +1,19 @@
+{
+  "name": "moneymanagerbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
